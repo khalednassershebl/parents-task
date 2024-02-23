@@ -1,0 +1,113 @@
+.form-group {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    @media (max-width: $max-9) {
+        margin: 10px 0;
+    }
+    label {
+        color: #adafca;
+        font-size: 0.75rem;
+        font-weight: 600;
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        transition: all .3s ease-in-out;
+        pointer-events: none;
+        display: block;
+        margin: 0;
+        line-height: 1em;
+    }
+    .form-control {
+        height: 50px;
+        padding: 10px 18px 0 18px;
+        background-color: #f6f8ff;
+        border: 1px solid #eaeaf5;
+        color: #3e3f5e;
+        transition: border-color .2s ease-in-out;
+        width: 100%;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        &:focus {
+            border-color: #7868e6;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+    select {
+        cursor: pointer;
+    }
+}
+.create-account-btn {
+    text-decoration: none;
+    width: 100%;
+    margin: auto;
+    color: #FFF;
+    display: inline-block;
+    height: 43px;
+    border-radius: 10px;
+    font-size: .7rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 43px;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+    background-color: #7868e6;
+    border: 0;
+    svg {
+        height: 18px;
+        margin-left: 2px;
+        path {
+            fill: #FFF;
+        }
+    }
+    &:hover {
+        background-color: #7868e6;
+    }
+}
+.form-check {
+    display: flex;
+    margin: 10px 5px 10px 0;
+    input {
+        background-color: #fff;
+        border: 1px solid #dedeea;
+        height: 17px;
+        width: 16px;
+        position: unset;
+        margin: 3px 0 0 5px;
+    }
+    p {
+        color: $iconActive;
+        font-size: .875rem;
+        font-weight: 700;
+        line-height: 22px;
+        cursor: pointer;
+        display: block;
+        margin: 0;
+        a {
+            text-decoration: none;
+            color: $navbarBg;
+        }
+    }
+}
+p.text {
+    margin-top: 30px;
+    font-size: .875rem;
+    line-height: 1.7142857143em;
+    font-weight: 500;
+    color: #3e3f5e;
+    a {
+        text-decoration: none;
+        color: $link;
+        font-weight: 700;
+    }
+}
+// .active-input {
+//     label {
+//         padding: 0 6px;
+//         font-size: 0.55rem;
+//         top: 9px;
+//         left: 20px;
+//     }
+// }

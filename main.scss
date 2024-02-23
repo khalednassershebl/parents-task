@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: "cairo";
+    background: #fafafa;
+}
+// Import Pages
+@import "children/all-children";
+@import "layout/layout";

@@ -1,0 +1,449 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "cairo";
+  background: #fafafa;
+}
+
+.teacher-review-card {
+  color: #3e3f5e;
+  background: #FFF;
+  padding: 20px 15px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none !important;
+}
+.teacher-review-card .file-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.teacher-review-card .file-head .student-info {
+  display: flex;
+  align-items: center;
+}
+.teacher-review-card .file-head .student-info img {
+  max-width: 100%;
+  height: 60px;
+  border-radius: 10px;
+}
+.teacher-review-card .file-head .student-info .student-card-des {
+  margin-right: 15px;
+  text-align: right;
+}
+.teacher-review-card .file-head .student-info .student-card-des h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 -2px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #2c2f32;
+}
+.teacher-review-card .file-head .student-info .student-card-des .stage {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #adafca;
+}
+.teacher-review-card .file-head .svg-link svg {
+  height: 28px;
+  width: 28px;
+  fill: #6e56e5;
+}
+.teacher-review-card .review-content {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 3px;
+}
+.teacher-review-card .review-content p {
+  font-size: 0.9rem;
+  color: #636169;
+  margin: 12px 0;
+  font-weight: 600;
+}
+.teacher-review-card .review-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.teacher-review-card .review-action span {
+  font-size: 0.8rem;
+  color: #636169;
+  font-weight: 700;
+}
+.teacher-review-card .review-action a {
+  text-decoration: none;
+  width: 110px;
+  color: #FFF;
+  background-color: #6e56e5;
+  display: inline-block;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 33px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: unset;
+  border: unset;
+}
+
+.student-card-v2 {
+  color: #3e3f5e;
+  background: #FFF;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none !important;
+}
+.student-card-v2 .file-head .student-info img {
+  max-width: 100%;
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.student-card-v2 .file-head .student-info .student-card-des {
+  margin-right: 5px;
+  text-align: right;
+  margin-bottom: 15px;
+}
+.student-card-v2 .file-head .student-info .student-card-des h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 -2px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #2c2f32;
+}
+.student-card-v2 .file-head .student-info .student-card-des .stage {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #adafca;
+}
+.student-card-v2 .file-head .btn-link button {
+  text-decoration: none;
+  width: 95%;
+  margin: auto;
+  color: #FFF;
+  background-color: #6e56e5;
+  display: inline-block;
+  height: 45px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 43px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: unset;
+  border: unset;
+}
+
+.stat-detail-exams .stat-detail-exam-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: #FFF;
+  border-radius: 12px;
+  margin-top: 8px;
+}
+.stat-detail-exams .stat-detail-exam-card .stat-title h5 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0 0 2px 0;
+  text-align: right;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.stat-detail-exams .stat-detail-exam-card .stat-title .stat-title-info {
+  text-align: right;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #adafca;
+}
+.stat-detail-exams .stat-detail-exam-card .stat-title .stat-title-info span {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.stat-detail-exams .stat-detail-exam-card .score-progress {
+  display: flex;
+  align-items: center;
+}
+.stat-detail-exams .stat-detail-exam-card .score-progress .course-persentage {
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+  direction: ltr;
+}
+.stat-detail-exams .stat-detail-exam-card .score-progress .progress {
+  background: #eeeffd;
+  height: 4px;
+  width: 75px;
+  position: relative;
+  border-radius: 20px;
+}
+.stat-detail-exams .stat-detail-exam-card .score-progress .progress .inner-progress {
+  background: #7868e6;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.stat-detail-exams .stat-detail-exam-card .score-progress .course-score p {
+  margin: 0 10px 0 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.student-large-card {
+  color: #3e3f5e;
+  background: #FFF;
+  padding: 15px 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none !important;
+}
+.student-large-card .file-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.student-large-card .file-head .student-info {
+  display: flex;
+  align-items: center;
+}
+.student-large-card .file-head .student-info img {
+  max-width: 100%;
+  height: 60px;
+  border-radius: 10px;
+}
+.student-large-card .file-head .student-info .student-card-des {
+  margin-right: 15px;
+  text-align: right;
+}
+.student-large-card .file-head .student-info .student-card-des h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 -2px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #2c2f32;
+}
+.student-large-card .file-head .student-info .student-card-des .stage {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #adafca;
+}
+.student-large-card .file-head .svg-link {
+  margin-left: 15px;
+  background: #ee4266 !important;
+  padding: 8px;
+  border-radius: 6px;
+  line-height: 19px;
+}
+.student-large-card .file-head .svg-link svg {
+  height: 20px;
+  width: 20px;
+  fill: #FFF;
+}
+.student-large-card .review-content {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 3px;
+}
+.student-large-card .review-content p {
+  font-size: 0.9rem;
+  color: #636169;
+  margin: 12px 0;
+  font-weight: 600;
+}
+.student-large-card .review-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.student-large-card .review-action span {
+  font-size: 0.8rem;
+  color: #636169;
+  font-weight: 700;
+}
+.student-large-card .review-action a {
+  text-decoration: none;
+  width: 110px;
+  color: #FFF;
+  background-color: #6e56e5;
+  display: inline-block;
+  height: 35px;
+  border-radius: 6px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 33px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: unset;
+  border: unset;
+}
+
+.add-student {
+  color: #3e3f5e;
+  background: #FFF;
+  padding: 15px 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06);
+  margin-bottom: 15px;
+  display: block;
+  text-decoration: none !important;
+}
+.add-student .add-student-header {
+  padding: 5px 0 15px 0;
+}
+.add-student .add-student-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 -2px 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #2c2f32;
+}
+
+.form-group {
+  width: 100%;
+  position: relative;
+  margin: 8px 0;
+}
+.form-group label {
+  color: #adafca;
+  font-size: 0.8rem;
+  font-weight: 600;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  display: block;
+  margin: 0;
+  line-height: 1em;
+}
+.form-group .form-control {
+  height: 45px;
+  padding: 0 18px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  color: #000;
+  transition: border-color 0.2s ease-in-out;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.form-group .form-control:focus {
+  border-color: #6e56e5;
+  box-shadow: none;
+  outline: none;
+}
+.form-group .form-control::-moz-placeholder {
+  color: #adafca;
+  font-size: 0.8rem;
+  font-weight: 600;
+  pointer-events: none;
+  display: block;
+  margin: 0;
+  line-height: 1em;
+}
+.form-group .form-control::placeholder {
+  color: #adafca;
+  font-size: 0.8rem;
+  font-weight: 600;
+  pointer-events: none;
+  display: block;
+  margin: 0;
+  line-height: 1em;
+}
+.form-group select {
+  cursor: pointer;
+}
+
+.create-account-btn {
+  text-decoration: none;
+  width: 150px;
+  margin: auto;
+  color: #FFF;
+  background-color: #6e56e5;
+  display: inline-block;
+  height: 45px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  margin-top: 15px;
+  border: unset;
+}
+.create-account-btn svg {
+  height: 17px;
+  margin-left: 4px;
+}
+.create-account-btn svg path {
+  fill: #FFF;
+}
+.create-account-btn:hover {
+  background-color: #6e56e5;
+}
+
+.day-box-yellow1 {
+  background: #ffc800 !important;
+}
+
+.day-box-green1 {
+  background: #7868e6 !important;
+}
+
+.day-box-red1 {
+  background: #ee4266 !important;
+}
+
+.col-xl-3,
+.col-lg-3,
+.col-md-4,
+.col-sm-6 {
+  padding: 0 8px;
+}
+
+.section-header {
+  padding: 25px 0 15px 0;
+}
+.section-header h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2c2f32;
+}/*# sourceMappingURL=main.css.map */

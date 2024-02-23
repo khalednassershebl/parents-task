@@ -1,0 +1,22 @@
+// Light Theme
+:root {
+    --main-color: #{$mainColor};
+    --body-bg: #{$bodyBg};
+    --navbar-bg: #{$navbarBg};
+    --navbar-color: #{$navbarColor};
+    --icon-active: #{$iconActive};
+    --icon-idle: #{$iconIdle};
+    --p-color: #{$p};
+    --subp-color: #{$subP};
+    --link-color: #{$link};
+    --a-light: #{$aLight};
+    --shadow-color: #{$shadow};
+    --border-color: #{$border};
+    --sub-light: #{$subLight};
+    --border-input: #{$borderInput};
+    --still-dark: #{$stillDark};
+    --still-dark2: #{$stillDark2};
+    --light-dark28: #{$light28};
+    --bg-28: #{$bglight28};
+    --sec-bg: #{$secLight};
+}

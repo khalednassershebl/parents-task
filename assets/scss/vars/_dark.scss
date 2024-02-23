@@ -1,0 +1,22 @@
+// Dark Theme
+.dark {
+    --main-color: #{$mainColor};
+    --body-bg: #{$bodyBgDark};
+    --navbar-bg: #{$navbarBg};
+    --navbar-color: #{$navbarColorDark};
+    --icon-active: #{$iconActiveDark};
+    --icon-idle: #{$iconIdle};
+    --p-color: #{$pDark};
+    --subp-color: #{$subPDark};
+    --link-color: #{$link};
+    --a-light: #{$aLight};
+    --shadow-color: #{$shadowDark};
+    --border-color: #{$borderDark};
+    --sub-light: #{$subDark};
+    --border-input: #{$borderInputDark};
+    --still-dark: #{$stillDark};
+    --still-dark2: #{$stillDark2};
+    --light-dark28: #{$dark28};
+    --bg-28: #{$bgdark28};
+    --sec-bg: #{$secDark};
+}
